@@ -5,6 +5,9 @@ $(function() {
       $calc    = $('#rectangle-calc'),
       blnValid = false;
 
+  $forkMeGH.show("https://github.com/suzewang/rectangle");
+  $bszPageFooter.show("body");
+
   $calc.click(function() {
     if(!blnValid) return;
 
